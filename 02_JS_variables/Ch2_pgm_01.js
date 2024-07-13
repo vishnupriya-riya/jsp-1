@@ -1,6 +1,9 @@
 // Declaring a variable
 
 var score;
+var teammembers;
+var coach;
+
 
 /* Further Adventures
  *
