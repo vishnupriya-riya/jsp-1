@@ -1,7 +1,7 @@
 // Using console.log to display information
 
-console.log("Welcome");
-console.log("Home");
+console.log("Java Script");
+console.log("HTML, CSS");
 
 
 /* Further Adventures
