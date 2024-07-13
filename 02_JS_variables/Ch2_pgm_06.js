@@ -6,8 +6,11 @@ var locationName;
 playerName = "Lionel Messi";
 locationName = "Argentina";
 
-console.log(playerName + " is in " + locationName);
+console.log(playerName + " is in " + locationName);  
 
+ var score = 100;
+ console.log(score);
+ console.log(playerName + " has a score of " + score);
 
 
 /* Further Adventures

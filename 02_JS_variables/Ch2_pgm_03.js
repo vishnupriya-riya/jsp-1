@@ -1,8 +1,11 @@
 // Using a variable
 
-var score;
-score = 100;
-console.log(score);
+var score1;
+score1 = 50;
+console.log(score1);
+var  score2;
+score2 = 60;
+console.log(score2);
 
 
 
