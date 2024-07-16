@@ -7,7 +7,7 @@ var StartWithCapital;
 var z5;
 
 var score;
-var Steps;
+var steps;
 var nope;
 var single_words_only;
 var yield;
