@@ -1,13 +1,13 @@
 // Location for a weather app
 
-var location = {
-    "city"      : "San Francisco",
-    "state"     : "CA",
-    "country"   : "US",
-    "zip"       : "94101",
-    "latitude"  : 37.775,
-    "longitude" : -122.418,
-    "elevation" : 47.000
+var location1 = {
+    "city"      : "San Francis",
+    "state"     : "CAC",
+    "country"   : "USA",
+    "zip"       : "941011",
+    "latitude"  : 37.7751,
+    "longitude" : -122.4118,
+    "elevation" : 47.0000
   };
   
   

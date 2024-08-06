@@ -10,7 +10,8 @@ var questionAndAnswer = {
 	marksForQuestion: 2
 };
 
-
+console.log(questionAndAnswer.question);
+console.log(questionAndAnswer.correctAnswer);
 
 /* Further Adventures
  *

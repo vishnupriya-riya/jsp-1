@@ -1,16 +1,28 @@
 // Using dot notation to access property values
 
-var book;
+var book1;
 
-book = {
+book1 = {
   title     : "The Hobbit",
-	author    : "J. R. R. Tolkien",
-	published : 1937
+  author    : "J. R. R. Tolkien",
+  published : 1937
 };
 
-console.log(book.title);
-console.log(book.author);
+console.log(book1.title);
+console.log(book1.author);
+console.log(book1.published);
 
+var book2;
+
+book2 = {
+	title : "Agni Siragugal",
+	author : "A.B.J",
+	published : 1990
+};
+
+console.log(book2.title)
+console.log(book2.author)
+console.log(book2.published);
 
 
 /* Further Adventures
