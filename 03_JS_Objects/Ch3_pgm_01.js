@@ -1,45 +1,34 @@
 // Using variables to represent a book
 
-// var bookTitle;
-// var bookAuthor;
-// var bookTitle2;
-// var bookAuthor2;
-// var bookTitle3;
-// var bookAuthor3;
+var bookTitle;
+var bookAuthor;
+var bookTitle2;
+var bookAuthor2;
+var bookTitle3;
+var bookAuthor3;
 
-// bookTitle = "The Hobbit";
-// bookAuthor = "J. R. R. Tolkien";
-// bookTitle2 = "Agni Siragugal";
-// bookAuthor2 = "A.B.J";
-// bookTitle3 = "Harry Potter";
-// bookAuthor3 = "J.K.Rowling";
-// console.log(bookTitle + " by " + bookAuthor);
-// console.log(bookTitle2 + " by " + bookAuthor2);
-// console.log(bookTitle3 + " by " + bookAuthor3);
+bookTitle = "The Hobbit";
+bookAuthor = "J. R. R. Tolkien";
+bookTitle2 = "Agni Siragugal";
+bookAuthor2 = "A.B.J";
+bookTitle3 = "Harry Potter";
+bookAuthor3 = "J.K.Rowling";
+console.log(bookTitle + " by " + bookAuthor);
+console.log(bookTitle2 + " by " + bookAuthor2);
+console.log(bookTitle3 + " by " + bookAuthor3);
 
-class Book {
-    constructor(title, author, publicationYear) {
-        this.title = title;
-        this.author = author;
-        this.publicationYear = publicationYear;
-    }
+//for printing 100 books
+for(i=1;i<=10;i++){
+    let j =prompt(`Enter the book${i}: `);
+    console.log(`Book${i}: ${j}`);
 }
 
-let books = [
-    new Book("Book 1", "Author A", 2000),
-    new Book("Book 2", "Author B", 2001),
-    // Add more books similarly...
-    new Book("Book 100", "Author J", 2100)
-];
-
-function displayBooks() {
-    books.forEach((book, index) => {
-        console.log(`${book.title} by ${book.author}, published in ${book.publicationYear}`);
-    });
+//for printing 100 books 
+for(i=1;i<=100;i++){
+    let j =prompt(`Enter the book${i}: `);
+    console.log(`Book${i}: ${j}`);
 }
 
-displayBooks();
- 
 
 /* Further Adventures
  *

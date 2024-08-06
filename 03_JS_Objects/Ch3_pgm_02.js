@@ -12,7 +12,7 @@ var book3Author = "Mark Twain";
 var book4Title = "Agni Siragugal";
 var book4Author = "A.B.J";
 
-console.log("There are three books so far...");
+console.log("There are four books so far...");
 console.log(book1Title + " by " + book1Author);
 console.log(book2Title + " by " + book2Author);
 console.log(book3Title + " by " + book3Author);

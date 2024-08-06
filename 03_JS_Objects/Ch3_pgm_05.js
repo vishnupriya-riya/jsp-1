@@ -1,11 +1,11 @@
 // An object with a single property
 
-var book;
+var book1;
 
-book = {
-    title : "The Hobbit"
+book1 = {
+    title1 : "The Hobbit"
 };
-console.log(book);
+console.log(book1);
 
 var book2;
 
